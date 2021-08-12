@@ -1,0 +1,17 @@
+{
+	"name": "Dev1oper_1_p_1",
+	"properties": {
+		"activities": [
+			{
+				"name": "Dev_1_pl_1 - Wait 10 seconds",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 10
+				}
+			}
+		],
+		"annotations": []
+	}
+}
