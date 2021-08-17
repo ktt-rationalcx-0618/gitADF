@@ -1,5 +1,5 @@
 {
-	"name": "DS_ktt01tstsa_Input",
+	"name": "DS_ktt01tstsa_Output",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "LS_ktt01_tst_sa",
@@ -10,10 +10,11 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"container": "input"
+				"container": "output"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
+			"firstRowAsHeader": true,
 			"quoteChar": "\""
 		},
 		"schema": []
