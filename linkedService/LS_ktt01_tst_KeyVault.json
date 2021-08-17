@@ -1,0 +1,10 @@
+{
+	"name": "LS_ktt01_tst_KeyVault",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://ktt01-tst-keyvault.vault.azure.net/"
+		}
+	}
+}
