@@ -1,0 +1,9 @@
+{
+	"name": "ktt01-tst-adf",
+	"location": "southcentralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "df2379f7-7083-40da-953e-2208a56ef08f",
+		"tenantId": "03f0126b-518e-456c-bac9-346c34f95bd9"
+	}
+}
