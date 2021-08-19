@@ -2,7 +2,7 @@
 	"name": "DS_ktt01_Dev_Input",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "LS_ktt01_Dev_BlobStorage",
+			"referenceName": "LS_ktt01_tst_sa",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
@@ -10,8 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "Aus_IND_Sales.csv",
-				"container": "dev-input"
+				"fileName": "Country (1).csv",
+				"container": "input"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
